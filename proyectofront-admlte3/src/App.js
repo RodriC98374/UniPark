@@ -30,7 +30,11 @@ import React from 'react'
 import Header from './componets/Header'
 import Aside from './componets/Aside'
 import Content from './componets/Content'
+import Autos from './componets/Autos'
+
+
 import Footer from './componets/Footer'
+
 
 export default function App() {
   return (
@@ -38,7 +42,9 @@ export default function App() {
         <Header />
         <Aside />
         <Content />
+        
         <Footer />
+        
     </div>
   )
 }

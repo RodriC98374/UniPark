@@ -15,15 +15,15 @@ export default function Header() {
             Home
           </a>
         </li>
-        <li className="nav-item d-none d-sm-inline-block">
+        {/*<li className="nav-item d-none d-sm-inline-block">
           <a href="#" className="nav-link">
             Contact
           </a>
-        </li>
+        </li>*/}
       </ul>
       {/* Right navbar links */}
       <ul className="navbar-nav ml-auto">
-        {/* Navbar Search */}
+        {/* Navbar Search 
         <li className="nav-item">
           <a
             className="nav-link"
@@ -57,16 +57,16 @@ export default function Header() {
               </div>
             </form>
           </div>
-        </li>
-        {/* Messages Dropdown Menu */}
+        </li>*/}
+        {/* Messages Dropdown Menu 
         <li className="nav-item dropdown">
           <a className="nav-link" data-toggle="dropdown" href="#">
             <i className="far fa-comments" />
             <span className="badge badge-danger navbar-badge">3</span>
           </a>
           <div className="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-            <a href="#" className="dropdown-item">
-              {/* Message Start */}
+            <a href="#" className="dropdown-item">*/}
+              {/* Message Start 
               <div className="media">
                 <img
                   src="dist/img/user1-128x128.jpg"
@@ -85,12 +85,12 @@ export default function Header() {
                     <i className="far fa-clock mr-1" /> 4 Hours Ago
                   </p>
                 </div>
-              </div>
-              {/* Message End */}
+              </div>*/}
+              {/* Message End 
             </a>
             <div className="dropdown-divider" />
-            <a href="#" className="dropdown-item">
-              {/* Message Start */}
+            <a href="#" className="dropdown-item">*/}
+              {/* Message Start 
               <div className="media">
                 <img
                   src="dist/img/user8-128x128.jpg"
@@ -109,12 +109,12 @@ export default function Header() {
                     <i className="far fa-clock mr-1" /> 4 Hours Ago
                   </p>
                 </div>
-              </div>
-              {/* Message End */}
+              </div>*/}
+              {/* Message End 
             </a>
             <div className="dropdown-divider" />
-            <a href="#" className="dropdown-item">
-              {/* Message Start */}
+            <a href="#" className="dropdown-item">*/}
+              {/* Message Start 
               <div className="media">
                 <img
                   src="dist/img/user3-128x128.jpg"
@@ -133,16 +133,16 @@ export default function Header() {
                     <i className="far fa-clock mr-1" /> 4 Hours Ago
                   </p>
                 </div>
-              </div>
-              {/* Message End */}
+              </div>*/}
+              {/* Message End 
             </a>
             <div className="dropdown-divider" />
             <a href="#" className="dropdown-item dropdown-footer">
               See All Messages
             </a>
           </div>
-        </li>
-        {/* Notifications Dropdown Menu */}
+        </li>*/}
+        {/* Notifications Dropdown Menu 
         <li className="nav-item dropdown">
           <a className="nav-link" data-toggle="dropdown" href="#">
             <i className="far fa-bell" />
@@ -193,7 +193,7 @@ export default function Header() {
           >
             <i className="fas fa-th-large" />
           </a>
-        </li>
+        </li>*/}
       </ul>
     </nav>
   );
