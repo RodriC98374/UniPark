@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM, { createPortal } from 'react-dom';
 import './index.css';
 import App from './App';
 import Aside from './componets/Aside';
@@ -11,8 +11,9 @@ root.render(
     <App />
   </React.StrictMode>
 );
-const lista = ReactDOM.createRoot(document.getElementById('lista'))
-lista.render(<h1>hola como estas</h1>)
+
+
+
 
 
 // If you want to start measuring performance in your app, pass a function
