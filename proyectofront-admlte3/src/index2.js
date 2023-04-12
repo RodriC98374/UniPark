@@ -5,10 +5,7 @@ import App from './App';
 import Aside from './componets/Aside';
 import reportWebVitals from './reportWebVitals';
 
-const lona = ReactDOM.createRoot(document.getElementById('lona'));
-lona.render(
-  <React.StrictMode>
-    <Aside/>
-  </React.StrictMode>
-);
+
+
+ReactDOM.render(<p>Hallo</p>, document.getElementById('sandy'));
 reportWebVitals();

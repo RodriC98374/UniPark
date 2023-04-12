@@ -4,7 +4,7 @@ export default function Aside() {
   return (
     <aside className="main-sidebar sidebar-dark-primary elevation-4">
   {/* Brand Logo */}
-  <a href="index.html" className="brand-link">
+  <a href="/" className="brand-link">
     <img src="dist/img/uni-park.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{opacity: '10',marginLeft:"-1px",marginTop:"-20px",maxHeight:"75px",border:"10px"}}  />
     <span className="brand-text font-weight-light" style={{fontSize:"2rem"}} >UNI-PARK</span>
   </a>
@@ -16,7 +16,7 @@ export default function Aside() {
         <img src="dist/img/user2-160x160.jpg" className="img-circle elevation-2" alt="User Image" />
       </div>
       <div className="info">
-        <a href="#" className="d-block">Alexander Pierce</a>
+        <a href="/" className="d-block">Alexander Pierce</a>
       </div>
     </div>
     {/* SidebarSearch Form */}
@@ -39,29 +39,24 @@ export default function Aside() {
           <a href="#" className="nav-link active">
             <i className="nav-icon fas fa-tachometer-alt" />
             <p>
-              Dashboard
+              Controles
               <i className="right fas fa-angle-left" />
             </p>
           </a>
           <ul className="nav nav-treeview">
             <li className="nav-item">
-              <a href="./index.html" className="nav-link active">
+              <a href="/final" className="nav-link active">
                 <i className="far fa-circle nav-icon" />
                 <p>Agregar Cliente</p>
               </a>
             </li>
             <li className="nav-item">
-              <a href="./index2.html" className="nav-link">
+              <a href="/listaclient" className="nav-link">
                 <i className="far fa-circle nav-icon" />
-                <p>Dashboard v2</p>
+                <p>Lista de clientes</p>
               </a>
             </li>
-            <li className="nav-item">
-              <a href="./index3.html" className="nav-link ">
-                <i className="far fa-circle nav-icon" />
-                <p>Dashboard v3</p>
-              </a>
-            </li>
+            
           </ul>
         </li>
         

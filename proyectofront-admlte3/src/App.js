@@ -25,26 +25,37 @@ function App() {
 export default App;*/
 
 
-
+import './App.css';
 import React from 'react'
 import Header from './componets/Header'
 import Aside from './componets/Aside'
 import Content from './componets/Content'
 import Autos from './componets/Autos'
-
+import { Routes,  Route,} from "react-router-dom";
+import Layout from "./componets/Layout.js"
 
 import Footer from './componets/Footer'
+import Menu from "./componets/Menu.js"
+import Listacli from './listacliente/ListadoCli';
 
-
-export default function App() {
-  return (
-    <div>
+/*<Header />
         <Header />
         <Aside />
-        <Content />
-        
-        <Footer />
-        
-    </div>
+        <Content />        
+        <Footer />*/
+export default function App() {
+  return (
+    <Routes>
+      
+      
+          <Route  path="/" element={<Layout/>} />
+          <Route path="/final" element={<Menu />} />
+          <Route path="/listaclient" element={<Listacli/>}/>
+
+          
+          
+      
+      
+    </Routes>
   )
 }
