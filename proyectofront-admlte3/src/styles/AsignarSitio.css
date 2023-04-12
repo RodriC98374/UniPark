@@ -1,0 +1,43 @@
+.contentPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContentAssigSite {
+    border: 1px solid #000;
+    padding: 16px;
+    width: 1020px;
+  }
+  
+  .ContentAssigSite-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .ContentAssigSite-columna {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .ContentAssigSite-fila {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .ContentAssigSite-nombre {
+    flex: 1;
+    margin-right: 24px;
+  }
+  
+  .ContentAssigSite-togglebars {
+    display: flex;
+  }
+  
+  .ContentAssigSite-togglebar {
+    width: 208px;
+    margin-right: 24px;
+  }
+  

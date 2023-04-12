@@ -1,4 +1,6 @@
 import React from 'react'
+import SidebarButton from './SidebarButton'
+import { Link } from 'react-router-dom'
 
 export default function Aside() {
   return (
@@ -44,12 +46,16 @@ export default function Aside() {
             </p>
           </a>
           <ul className="nav nav-treeview">
-            <li className="nav-item">
-              <a href="./index.html" className="nav-link active">
-                <i className="far fa-circle nav-icon" />
-                <p>Agregar Cliente</p>
-              </a>
-            </li>
+            <SidebarButton name={'Añadir Cliente'} />
+            <Link to="/sitiosOcupados">
+              <SidebarButton name={'Sitios Ocupados'} />
+            </Link>
+            <Link to="/sitiosDisponibles">
+              <SidebarButton name={'Sitios Disponibles'} />
+            </Link>
+            
+            
+            
             <li className="nav-item">
               <a href="./index2.html" className="nav-link">
                 <i className="far fa-circle nav-icon" />
